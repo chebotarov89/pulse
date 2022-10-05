@@ -76,6 +76,34 @@
 			font-size: 12px;
 		}
 	}
+	.button {
+		&_submit {
+			width: 100%;
+			font-size: 16px;
+		}
+	}
+	.consult {
+		&__header {
+			font-size: 28px;
+			margin-left: 20px;
+		}
+		&__subheader {
+			font-size: 18px;
+		}
+	}
+	.catalog {
+		&__content {
+			justify-content: space-evenly;
+		}
+	}
+	.feedback {
+		&_wrapper__right {
+			margin-left: 45px;
+		}
+		&_wrapper__descr {
+			width: 480px;
+		}
+	}
 }
 @media (max-width: 767px) {
 	.header {
@@ -110,6 +138,29 @@
 		&__wrapper {
 			margin-top: 30px;
 			flex-wrap: wrap;
+		}
+	}
+	.button {
+		&_submit {
+			width: 100%;
+			font-size: 14px;
+		}
+	}
+	.consult {
+		&__header {
+			font-size: 22px;
+		}
+		&__subheader {
+			font-size: 14px;
+		}
+	}
+	.feedback {
+		&_wrapper__right {
+			margin-left: 25px;
+		}
+		&_wrapper__descr {
+			width: 380px;
+			font-size: 13px;
 		}
 	}
 }
@@ -170,5 +221,22 @@
 			font-size: 8px;
 			width: 55px;
 		}
+	}
+	.button {
+		&_submit {
+			width: 100%;
+			font-size: 14px;
+		}
+	}
+	.consult {
+		&__header {
+			font-size: 16px;
+		}
+		&__subheader {
+			font-size: 12px;
+		}
+	}
+	.feed-form {
+		width: 280px;
 	}
 }

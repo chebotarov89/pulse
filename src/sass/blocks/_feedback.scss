@@ -1,0 +1,38 @@
+.feedback {
+    margin-top: 79px;
+    h2 {
+        font-weight: 700;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0D0D0D;
+    }
+    &_wrapper {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &_wrapper__right {
+        margin-left: 60px;
+    }
+    &_wrapper__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &_wrapper__marathons {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &_wrapper__descr {
+        margin-top: 10px;
+        width: 680px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+}
